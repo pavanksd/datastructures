@@ -9,10 +9,10 @@ class Queue{
         this.collection.shift();
     }
     printQueue(){
-        console.log(this.collection);
+        console.log('Queue collection: ',this.collection);
     }
     front(){
-        console.log(this.collection[0]);
+        console.log('Front Of queue: ',this.collection[0]);
     }
 }
 

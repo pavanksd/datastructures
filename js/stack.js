@@ -13,10 +13,10 @@ class Stack{
             console.log('Underflow');
             return;
         }
-        console.log("poped- "+this.item.pop());
+        console.log("poped: ",this.item.pop());
     }
     peek(){
-        console.log("Tos- "+this.item[this.item.length-1]);
+        console.log("Top of stack: ",this.item[this.item.length-1]);
     }
     printStack(){
         console.log("Stack Content");
